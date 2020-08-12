@@ -10,8 +10,8 @@
 ```
 
 3. Download the pre-trained Caffe model from here: http://www.robots.ox.ac.uk/~vgg/software/vgg_face/.
-
-Also download the fold_0_data.txt to fold_4_data.txt files for getting the labels.
+   
+   Also download the fold_0_data.txt to fold_4_data.txt files for getting the labels.
 
 4. Convert the Caffe model to ONNX model using this: https://github.com/htshinichi/caffe-onnx
 ```    
@@ -23,7 +23,7 @@ Also download the fold_0_data.txt to fold_4_data.txt files for getting the label
 
 5. Convert the ONNX model to Keras Model using this: https://github.com/nerox8664/onnx2keras
 
-For conversion of onnx model to keras model, run the following jupyter notebook.
+   For conversion of onnx model to keras model, run the following jupyter notebook.
 ```
     ONNX to Keras.ipynb
 ```
