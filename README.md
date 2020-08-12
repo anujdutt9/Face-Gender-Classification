@@ -23,14 +23,14 @@
 
 For conversion of onnx model to keras model, run the following jupyter notebook.
 ```
-    ONNX to Keras Conversion/ONNX to Keras.ipynb
+    ONNX to Keras.ipynb
 ```
 
 6. Once you have the Keras model ready, we are now ready for Transfer Learning.
 
 7. In the Model Training and Prediction directory, unzip the faces.zip file and run the following Jupyter Notebook:
 ```
-    Model Training and Prediction/Matroid Challenge Notebook.ipynb
+    Face_gender_classification.ipynb
 ```
 
 This above notebook does the following:
