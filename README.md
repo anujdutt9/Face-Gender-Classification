@@ -9,7 +9,9 @@
     conda env create -f environment.yml
 ```
 
-3. Download the pre-trained Caffe model from here: http://www.robots.ox.ac.uk/~vgg/software/vgg_face/
+3. Download the pre-trained Caffe model from here: http://www.robots.ox.ac.uk/~vgg/software/vgg_face/.
+
+Also download the fold_0_data.txt to fold_4_data.txt files for getting the labels.
 
 4. Convert the Caffe model to ONNX model using this: https://github.com/htshinichi/caffe-onnx
 ```    
