@@ -32,17 +32,28 @@ For conversion of onnx model to keras model, run the following jupyter notebook.
     Model Training and Prediction/Matroid Challenge Notebook.ipynb
 ```
 
-This notebook does the following:
-    a) Loads in the Dataset using the fold_x_data.txt files
-    b) Splits the data into Train/Val/Test set.
-    c) Converts and Saves the dataset into TFRecords format for efficiency.
-    d) Loads the keras model converted above.
-    e) Removes the unnecessary layers from the model.
-    f) Freezes the trained layers and adds the new layers on top of it.
-    g) Defines the Loss and optimizer functions.
-    h) Trains the model for set number of epochs by streaming data efficiently from TFRecords using tf.data API in batches.
-    i) Saves the trained model as well as it's chekpoints
-    j) Shows a plot between model loss and accuracy w.r.t number of epochs.
-    k) Makes predictions on the test dataset and computes accuracy, Precision, Recall, F1 Score and the confusion matrix.
-    l) Shows an example of how to load the trained model for making inference on random images.
+This above notebook does the following:
+a) Loads in the Dataset using the fold_x_data.txt files.
+
+b) Splits the data into Train/Val/Test set.
+
+c) Converts and Saves the dataset into TFRecords format for efficiency.
+
+d) Loads the keras model converted above.
+
+e) Removes the unnecessary layers from the model.
+
+f) Freezes the trained layers and adds the new layers on top of it.
+
+g) Defines the Loss and optimizer functions.
+
+h) Trains the model for set number of epochs by streaming data efficiently from TFRecords using tf.data API in batches.
+
+i) Saves the trained model as well as it's chekpoints.
+
+j) Shows a plot between model loss and accuracy w.r.t number of epochs.
+
+k) Makes predictions on the test dataset and computes accuracy, Precision, Recall, F1 Score and the confusion matrix.
+
+l) Shows an example of how to load the trained model for making inference on random images.
 
