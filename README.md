@@ -1,5 +1,17 @@
 # Face Gender Classification
 
+# Requirements
+
+1. TensorFlow 2.3.0
+
+2. onnx2keras
+
+3. Onnx
+
+4. Python 3
+
+5. GPU [Optional]
+
 # Usage
 
 1. Install Miniconda. Follow instructions here: https://docs.conda.io/en/latest/miniconda.html
@@ -13,7 +25,7 @@
    
    Also download the fold_0_data.txt to fold_4_data.txt files for getting the labels.
 
-4. Convert the Caffe model to ONNX model using this: https://github.com/htshinichi/caffe-onnx
+4. Convert the **Caffe model** to **ONNX model** using this: https://github.com/htshinichi/caffe-onnx
 ```    
     python convert2onnx.py \
           vgg_face_caffe/VGG_FACE_deploy.prototxt \
@@ -21,7 +33,7 @@
           vgg_face onnxmodel
 ```
 
-5. Convert the ONNX model to Keras Model using this: https://github.com/nerox8664/onnx2keras
+5. Convert the **ONNX model** to **Keras model** using this: https://github.com/nerox8664/onnx2keras
 
    For conversion of onnx model to keras model, run the following jupyter notebook.
 ```
