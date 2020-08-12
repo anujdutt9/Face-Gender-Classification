@@ -73,3 +73,14 @@ k) Makes predictions on the test dataset and computes accuracy, Precision, Recal
 
 l) Shows an example of how to load the trained model for making inference on random images.
 
+# References
+
+1. https://github.com/htshinichi/caffe-onnx
+
+2. https://github.com/nerox8664/onnx2keras
+
+3. http://www.robots.ox.ac.uk/~vgg/software/vgg_face/
+
+4. https://www.tensorflow.org/guide/data
+
+5. https://www.tensorflow.org/api_docs/python/tf/data/Dataset
